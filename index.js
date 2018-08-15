@@ -30,5 +30,8 @@ function takeANumber(line, name) {
 //takeANumber([], "Humzah")
 
 function takeANumber(line) {
-  line.length = line.length +
+  var number = 0
+  number++
+  line.push(number)
+  return `Welcome you are number ${number}`
 }
