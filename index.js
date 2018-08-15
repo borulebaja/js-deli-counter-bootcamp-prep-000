@@ -29,4 +29,6 @@ function takeANumber(line, name) {
 
 //takeANumber([], "Humzah")
 
-function takeANumber(line)
+function takeANumber(line) {
+  line.length = line.length +
+}
