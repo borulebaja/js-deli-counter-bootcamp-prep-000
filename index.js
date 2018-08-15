@@ -28,9 +28,9 @@ function takeANumber(line, name) {
 };
 
 //takeANumber([], "Humzah")
+var number = 0
 
 function takeANumber(line) {
-  var number = 0
   number++
   line.push(number)
   return `Welcome you are number ${number}`
